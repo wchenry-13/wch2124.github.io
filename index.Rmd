@@ -10,7 +10,7 @@ output:
 
 Some cool and interesting things about me, Wynter  
 
-# A brief introduction
+## A brief introduction
 
 My name is Wynter Henry, I'm 22 years old and I'm currently a MS in Epidemiology candidate at Columbia Univeristy Mailman School of Public Health. I grew up in the South Jersey area, and went to college in Phialdelphia at Thomas Jefferson University, where I got my B.S. in Biology with a minor in Public Health Analytics. My goals post-graduation are to get some work experience and apply to some epidemiology PhD programs. 
 
@@ -20,4 +20,19 @@ My name is Wynter Henry, I'm 22 years old and I'm currently a MS in Epidemiology
 * My favorite movie is John Carpenter's 1978 *Halloween*
 * I have a dog named Mercury #insert photo 
 
+## Academic and Professional Experience 
+
+Some highlights of my experience include:
+
+* Being an AmeriCorps Children's Health VISTA at the Philadelphia Department of Public Health
+* Being a Teaching Assistant for various science courses 
+* Conducting cell viability research on MCF-7 cancer cells #insert a hyperlink to my resume or something 
+
+## Important Links
+
+[gmail](wynter.henry13@gmail.com)
+
+[LinkedIn](https://www.linkedin.com/in/wynter-henry-866324263/)
+
+[GitHub](https://github.com/wchenry-13?tab=repositories)
 
