@@ -1,0 +1,14 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "About"
+      href: about_me.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<wynter.henry13@gmail.com>
+    - icon: fa-github fa-lg
+      href: https://github.com/wchenry-13?tab=repositories>/
+output:
+  html_document:
+    theme: cerulean

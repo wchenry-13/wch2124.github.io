@@ -10,8 +10,9 @@
 
 
 
+<meta name="date" content="2023-10-31" />
 
-<title>Wynter’s Website</title>
+<title>About Wynter</title>
 
 <script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,9 +30,6 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -224,69 +222,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -294,16 +229,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -347,56 +272,30 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Wynter’s Website</h1>
+<h1 class="title toc-ignore">About Wynter</h1>
+<h4 class="date">2023-10-31</h4>
 
 </div>
 
 
-<p>Some cool and interesting things about me, Wynter</p>
-<div id="a-brief-introduction" class="section level2">
-<h2>A brief introduction</h2>
-<p>This is me: <img src="images/headshot.JPG" style="width:75%"></p>
-<p>My name is Wynter Henry, I’m 22 years old and I’m currently a MS in
-Epidemiology candidate at Columbia Univeristy Mailman School of Public
-Health. I grew up in the South Jersey area, and went to college in
-Phialdelphia at Thomas Jefferson University, where I got my B.S. in
-Biology with a minor in Public Health Analytics. My goals
-post-graduation are to get some work experience and apply to some
-epidemiology PhD programs. More about me can be found here: insert about
-tab</p>
-</div>
-<div id="some-wynter-fun-facts" class="section level2">
-<h2>Some Wynter Fun Facts</h2>
-<ul>
-<li>My favorite book is the <em>The Sun Also Rises</em> by Ernest
-Hemingway</li>
-<li>My favorite movie is John Carpenter’s 1978 <em>Halloween</em></li>
-<li>I have a dog named Mercury</li>
-</ul>
-<p><img src="images/mercury.jpeg" style="width:75%"></p>
-</div>
-<div id="academic-and-professional-experience" class="section level2">
-<h2>Academic and Professional Experience</h2>
-<p>Some highlights of my experience include:</p>
-<ul>
-<li>Being an AmeriCorps Children’s Health VISTA at the Philadelphia
-Department of Public Health</li>
-<li>Being a Teaching Assistant for various science courses</li>
-<li>Conducting cell viability research on MCF-7 cancer cells</li>
-</ul>
-<p>Here is my resume:</p>
-<object data = "resume_Wynter_Henry.pdf" width = "1000" height = "1000" type = 'application/pdf'/>
-</div>
-<div id="other-important-links" class="section level2">
-<h2>Other Important Links</h2>
-<p><a
-href="https://www.linkedin.com/in/wynter-henry-866324263/">LinkedIn</a></p>
+<div id="about-me" class="section level2">
+<h2>About me</h2>
+<p>I’m in the process of completing an MS in Epidemiology at Columbia
+University Mailman School of Public Health. During my time as an
+undergraduate at Thomas Jefferson University, I spent a lot of time on a
+project that studied the cell viability of MCF-7 cells, a breast cancer
+cell line, after being treated with gingerol derivatives. This project
+was my introduction to research and I loved every bit of it! I spent
+most of my time conducting cell viability assays and PCR.<br />
+I became more interested in infectious diseases after taking
+microbiology and immunology courses, and from there I decided to pursue
+an MS in Epidemiology. I’m primarily interested in infectious disease
+epidemiology, with a focus on emerging infectious diseases like Nipah
+virus, coronaviruses, Ebola virus disease, and more!</p>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -429,35 +328,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

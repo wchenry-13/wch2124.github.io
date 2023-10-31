@@ -12,13 +12,18 @@ Some cool and interesting things about me, Wynter
 
 ## A brief introduction
 
-My name is Wynter Henry, I'm 22 years old and I'm currently a MS in Epidemiology candidate at Columbia Univeristy Mailman School of Public Health. I grew up in the South Jersey area, and went to college in Phialdelphia at Thomas Jefferson University, where I got my B.S. in Biology with a minor in Public Health Analytics. My goals post-graduation are to get some work experience and apply to some epidemiology PhD programs. 
+This is me: 
+<img src="images/headshot.JPG" style="width:75%">
+
+My name is Wynter Henry, I'm 22 years old and I'm currently a MS in Epidemiology candidate at Columbia Univeristy Mailman School of Public Health. I grew up in the South Jersey area, and went to college in Phialdelphia at Thomas Jefferson University, where I got my B.S. in Biology with a minor in Public Health Analytics. My goals post-graduation are to get some work experience and apply to some epidemiology PhD programs. More about me can be found here: insert about tab
 
 ## Some Wynter Fun Facts 
 
 * My favorite book is the *The Sun Also Rises* by Ernest Hemingway 
 * My favorite movie is John Carpenter's 1978 *Halloween*
-* I have a dog named Mercury #insert photo 
+* I have a dog named Mercury 
+
+<img src="images/mercury.jpeg" style="width:75%">
 
 ## Academic and Professional Experience 
 
@@ -26,13 +31,15 @@ Some highlights of my experience include:
 
 * Being an AmeriCorps Children's Health VISTA at the Philadelphia Department of Public Health
 * Being a Teaching Assistant for various science courses 
-* Conducting cell viability research on MCF-7 cancer cells #insert a hyperlink to my resume or something 
+* Conducting cell viability research on MCF-7 cancer cells 
 
-## Important Links
+Here is my resume: 
 
-[gmail](wynter.henry13@gmail.com)
+<object data = "resume_Wynter_Henry.pdf" width = "1000" height = "1000" type = 'application/pdf'/>
+
+## Other Important Links
 
 [LinkedIn](https://www.linkedin.com/in/wynter-henry-866324263/)
 
-[GitHub](https://github.com/wchenry-13?tab=repositories)
+
 

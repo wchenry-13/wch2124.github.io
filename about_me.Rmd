@@ -1,0 +1,15 @@
+---
+title: "About Wynter"
+output: html_document
+date: '2023-10-31'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## About me 
+
+I'm in the process of completing an MS in Epidemiology at Columbia University Mailman School of Public Health. 
+During my time as an undergraduate at Thomas Jefferson University, I spent a lot of time on a project that studied the cell viability of MCF-7 cells, a breast cancer cell line, after being treated with gingerol derivatives. This project was my introduction to research and I loved every bit of it! I spent most of my time conducting cell viability assays and PCR.  
+I became more interested in infectious diseases after taking microbiology and immunology courses, and from there I decided to pursue an MS in Epidemiology. I'm primarily interested in infectious disease epidemiology, with a focus on emerging infectious diseases like Nipah virus, coronaviruses, Ebola virus disease, and more! 
