@@ -1,0 +1,53 @@
+---
+title: "plotly"
+output: html_document
+date: '2023-11-02'
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(p8105.datasets)
+data("instacart")
+library(plotly)
+```
+
+```{r}
+instacart = 
+  instacart |> 
+  as_tibble()
+  
+instacart |> 
+  count(aisle) |> 
+  arrange(desc(n))  
+
+instacart |> 
+  count(aisle) |> 
+  filter(n > 10000) |> 
+  mutate(aisle = fct_reorder(aisle, n)) 
+```
+
+## My scatterplot
+
+```{r}
+  plot_ly(data = instacart, x = ~aisle, y = ~n, type = "scatter", mode = "markers", marker = list(size = 10, color = "viridis")) |>  
+  layout(title = "Number of Items per Aisle", xaxis = list(title = "Aisles"), 
+         yaxis = list(title = "Items"))
+```
+
+## My barchart
+
+```{r}
+ plot_ly(data = instacart, x = ~aisle, y = ~n, type = "bar", mode = "markers", marker = list(size = 10, color = "viridis")) |>  
+  layout(title = "Number of Items per Aisle", xaxis = list(title = "Aisles"), 
+         yaxis = list(title = "Items"))
+```
+
+## My boxplot
+
+```{r}
+plot_ly(data = instacart, x = ~aisle, y = ~n, type = "box", color = "viridis") |>  
+  layout(title = "Number of Items per Aisle", xaxis = list(title = "Aisles"), 
+         yaxis = list(title = "Items"))
+```
+

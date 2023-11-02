@@ -1,0 +1,47 @@
+---
+title: "Instacart Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(dplyr)
+library(p8105.datasets)
+data("instacart")
+library(plotly)
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Scatterplot
+
+```{r}
+plot_ly(data = instacart, x = ~aisle, y = ~n, type = "scatter", mode = "markers", marker = list(size = 10, color = "viridis")) |>  
+  layout(title = "Number of Items per Aisle", xaxis = list(title = "Aisles"), 
+         yaxis = list(title = "Items"))
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Barchart
+
+```{r}
+plot_ly(data = instacart, x = ~aisle, y = ~n, type = "bar", mode = "markers", marker = list(size = 10, color = "viridis")) |>  
+  layout(title = "Number of Items per Aisle", xaxis = list(title = "Aisles"), 
+         yaxis = list(title = "Items"))
+```
+
+### Boxplot
+
+```{r}
+plot_ly(data = instacart, x = ~aisle, y = ~n, type = "box", color = "viridis") |>  
+  layout(title = "Number of Items per Aisle", xaxis = list(title = "Aisles"), 
+         yaxis = list(title = "Items"))
+```
+

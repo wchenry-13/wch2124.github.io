@@ -1,7 +1,6 @@
 ---
 title: "About Wynter"
 output: html_document
-date: '2023-10-31'
 ---
 
 ```{r setup, include=FALSE}
