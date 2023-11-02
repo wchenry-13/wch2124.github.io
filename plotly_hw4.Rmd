@@ -30,15 +30,24 @@ instacart |>
 ## My scatterplot
 
 ```{r}
-  plot_ly(data = instacart, x = ~aisle, y = ~n, type = "scatter", mode = "markers", marker = list(size = 10, color = "viridis")) |>  
+instacart |> 
+  count(aisle) |> 
+  arrange(desc(n)) |> 
+  mutate(aisle = fct_reorder(aisle, n, .desc = TRUE)) |> 
+   plot_ly(x = ~aisle, y = ~n, type = "scatter", colors = "viridis") |>
   layout(title = "Number of Items per Aisle", xaxis = list(title = "Aisles"), 
          yaxis = list(title = "Items"))
+
 ```
 
 ## My barchart
 
 ```{r}
- plot_ly(data = instacart, x = ~aisle, y = ~n, type = "bar", mode = "markers", marker = list(size = 10, color = "viridis")) |>  
+instacart |> 
+  count(aisle) |> 
+  arrange(desc(n)) |> 
+  mutate(aisle = fct_reorder(aisle, n, .desc = TRUE)) |> 
+   plot_ly(x = ~aisle, y = ~n, type = "bar", colors = "viridis") |>
   layout(title = "Number of Items per Aisle", xaxis = list(title = "Aisles"), 
          yaxis = list(title = "Items"))
 ```
@@ -46,7 +55,11 @@ instacart |>
 ## My boxplot
 
 ```{r}
-plot_ly(data = instacart, x = ~aisle, y = ~n, type = "box", color = "viridis") |>  
+instacart |> 
+  count(aisle) |> 
+  arrange(desc(n)) |> 
+  mutate(aisle = fct_reorder(aisle, n, .desc = TRUE)) |> 
+   plot_ly(x = ~aisle, y = ~n, type = "box", colors = "viridis") |>
   layout(title = "Number of Items per Aisle", xaxis = list(title = "Aisles"), 
          yaxis = list(title = "Items"))
 ```
